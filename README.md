@@ -4,6 +4,7 @@
 
 [![Build Status](https://travis-ci.org/mjwaxios/promptuser.svg?branch=master)](https://travis-ci.org/mjwaxios/promptuser)
 
+```
 package promptuser // import "github.com/mjwaxios/promptuser"
 
 FUNCTIONS
@@ -13,3 +14,4 @@ func Echo(prompt string) string
 
 func NoEcho(prompt string) string
     NoEcho will prompt the user and hide their input
+```
