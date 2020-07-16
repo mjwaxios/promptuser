@@ -1,5 +1,5 @@
 [![GoDoc](https://godoc.org/github.com/mjwaxios/promptuser?status.svg)](https://godoc.org/github.com/mjwaxios/promptuser)
-[![Go Report Card](https://goreportcard.com/badge/github.com/google/promptuser)](https://goreportcard.com/report/github.com/mjwaxios/promptuser)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mjwaxios/promptuser)](https://goreportcard.com/report/github.com/mjwaxios/promptuser)
 [![License](https://img.shields.io/badge/LICENSE-Apache2.0-ff69b4.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 [![Build Status](https://travis-ci.org/mjwaxios/promptuser.svg?branch=master)](https://travis-ci.org/mjwaxios/promptuser)
