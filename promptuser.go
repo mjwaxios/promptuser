@@ -10,12 +10,12 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
-// Echo will prompt the user for input and echo there input
+// Echo will prompt the user for input and echo their input
 func Echo(prompt string) string {
 	return base(prompt, true)
 }
 
-// NoEcho will prompt the user and hide there input
+// NoEcho will prompt the user and hide their input
 func NoEcho(prompt string) string {
 	return base(prompt, false)
 }
