@@ -41,12 +41,13 @@ func base(prompt string, echo bool) string {
 		reader := bufio.NewReader(os.Stdin)
 		u, _, _ := reader.ReadLine()
 		return string(u)
-	} else {
-		p, err := terminal.ReadPassword(syscall.Stdin)
-		fmt.Println("")
-		if err != nil {
-			panic(err)
-		}
-		return string(p)
 	}
+
+	p, err := terminal.ReadPassword(syscall.Stdin)
+	fmt.Println("")
+	if err != nil {
+		panic(err)
+	}
+	return string(p)
+
 }
